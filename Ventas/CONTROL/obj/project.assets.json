@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MODEO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "VISTA": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MODEO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MODEO.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "VISTA/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VISTA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VISTA.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "MODEO/1.0.0": {
+      "type": "project",
+      "path": "../MODEO/MODEO.csproj",
+      "msbuildProject": "../MODEO/MODEO.csproj"
+    },
+    "VISTA/1.0.0": {
+      "type": "project",
+      "path": "../VISTA/VISTA.csproj",
+      "msbuildProject": "../VISTA/VISTA.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MODEO >= 1.0.0",
+      "VISTA >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\steph\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\CONTROL\\CONTROL.csproj",
+      "projectName": "CONTROL",
+      "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\CONTROL\\CONTROL.csproj",
+      "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\CONTROL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\MODEO\\MODEO.csproj": {
+              "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\MODEO\\MODEO.csproj"
+            },
+            "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj": {
+              "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
