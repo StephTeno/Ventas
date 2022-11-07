@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj": {}
+    "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj": {
+    "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj",
+        "projectUniqueName": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj",
         "projectName": "VISTA",
-        "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj",
+        "projectPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\obj\\",
+        "outputPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\CONTROL\\CONTROL.csproj": {}
+    "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\CONTROL\\CONTROL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\CONTROL\\CONTROL.csproj": {
+    "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\CONTROL\\CONTROL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\CONTROL\\CONTROL.csproj",
+        "projectUniqueName": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\CONTROL\\CONTROL.csproj",
         "projectName": "CONTROL",
-        "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\CONTROL\\CONTROL.csproj",
+        "projectPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\CONTROL\\CONTROL.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\CONTROL\\obj\\",
+        "outputPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\CONTROL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\MODEO\\MODEO.csproj": {
-                "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\MODEO\\MODEO.csproj"
+              "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\MODEO\\MODEO.csproj": {
+                "projectPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\MODEO\\MODEO.csproj"
               },
-              "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj": {
-                "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj"
+              "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj": {
+                "projectPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\MODEO\\MODEO.csproj": {
+    "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\MODEO\\MODEO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\MODEO\\MODEO.csproj",
+        "projectUniqueName": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\MODEO\\MODEO.csproj",
         "projectName": "MODEO",
-        "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\MODEO\\MODEO.csproj",
+        "projectPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\MODEO\\MODEO.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\MODEO\\obj\\",
+        "outputPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\MODEO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj": {
-                "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj"
+              "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj": {
+                "projectPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj"
               }
             }
           }
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj": {
+    "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj",
+        "projectUniqueName": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj",
         "projectName": "VISTA",
-        "projectPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\VISTA.csproj",
+        "projectPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\VISTA.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steph\\OneDrive\\Escritorio\\Ventas\\VISTA\\obj\\",
+        "outputPath": "C:\\Users\\steph\\Source\\Repos\\Ventas\\Ventas\\VISTA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",

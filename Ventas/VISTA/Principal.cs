@@ -21,5 +21,7 @@ namespace VISTA
         {
             this.Close();
         }
+
+        private void tbcSecVenta_SelectedIndexChanged(object sender, EventArgs e){}
     }
 }
