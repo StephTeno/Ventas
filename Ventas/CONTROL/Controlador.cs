@@ -61,8 +61,14 @@ namespace CONTROL
             {
                 case 1:
                     var Producto = bdventas.Datos.OfType<Ventas>();
-                    //var mas = Producto.Where(x=>x.);
-                    //var MasVentas= from v in Producto
+                    var MasVentas = from v in Producto
+                                    group v by v.NProducto into g
+                                    orderby g.Count() descending
+                                    select new
+                                    {
+                                        producto = g.Key,
+                                        cantidad = g.Count()
+                                    };
                     break;
                 case 2:
                     break;
