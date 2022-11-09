@@ -10,6 +10,7 @@ namespace MODEO
     public class BaseDatosVentas
     {
         ArrayList datos = new ArrayList();
+        public ArrayList Datos { get { return datos; } set { datos = value; } }
         public void AgregarVenta(Ventas dato)
         {
             datos.Add(dato);
@@ -23,6 +24,7 @@ namespace MODEO
     public class BaseDatosClientes
     {
         ArrayList clientes = new ArrayList();
+        public ArrayList Clientes { get { return clientes; } set { clientes = value; } }
         public void AgregarCliente(Clientes dato)
         {
             clientes.Add(dato);

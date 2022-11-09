@@ -54,11 +54,15 @@ namespace CONTROL
         {
             Clientes e = bdclientes.BuscarCliente(idcli.Text);
         }
-        public void ConsultaCont(TextBox NomC, int e)
+        public void ConsultaCliente(TextBox NomC, CheckBox op1, CheckBox op2, CheckBox op3, CheckBox op4, CheckBox op5)
         {
+            int e = Consultar(op1, op2, op3, op4, op5);
             switch (e)
             {
                 case 1:
+                    var Producto = bdventas.Datos.OfType<Ventas>();
+                    //var mas = Producto.Where(x=>x.);
+                    //var MasVentas= from v in Producto
                     break;
                 case 2:
                     break;
@@ -68,9 +72,22 @@ namespace CONTROL
                     break;
                 case 5:
                     break;
-                default:
-                    break;
             }
+        }
+        public int Consultar(CheckBox op1, CheckBox op2, CheckBox op3, CheckBox op4, CheckBox op5)
+        {
+            int o;
+            if (op1.Checked)
+                return o = 1;
+            else if (op2.Checked)
+                return o = 2;
+            else if (op3.Checked)
+                return o = 3;
+            else if (op4.Checked)
+                return o = 4;
+            else if (op5.Checked)
+                return o = 5;
+            return o=0;
         }
     }
 }
